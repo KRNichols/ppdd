@@ -2,7 +2,7 @@ import { IInputs, IOutputs } from "./generated/ManifestTypes";
 import DataSetInterfaces = ComponentFramework.PropertyHelper.DataSetApi;
 type DataSet = ComponentFramework.PropertyTypes.DataSet;
 
-export class ppdd implements ComponentFramework.StandardControl<IInputs, IOutputs> {
+export class PowerDragDrop implements ComponentFramework.StandardControl<IInputs, IOutputs> {
     /**
      * Empty constructor.
      */
